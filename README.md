@@ -15,7 +15,7 @@ Jeżeli chcesz dodać wszystkie zmienione pliki użyj `git add .`
 Pamiętaj że kropka na końcu jest ważna!
 Następnie skommituj zmiany komendą `git commit -m "nazwa_commita"`
 5. Wypchnij zmiany do swojego brancha w repozytorium na GitHubie.  Użyj do tego komendy `git push origin feature/` (podstaw za `X` Twoją nazwę brancha).
-6. Stwórz [*pull request*](https://help.github.com/articles/creating-a-pull-request) z Twojego brancha do brancha `gitflow`, gdy skończysz wszystkie zadania.
+6. Stwórz [*pull request*](https://help.github.com/articles/creating-a-pull-request) z Twojego brancha do brancha `gitflow/NUMER_KURSU`, gdy skończysz wszystkie zadania.
 
 Poszczególne zadania rozwiązuj w odpowiednich plikach.
 
