@@ -254,7 +254,7 @@ namespace TaskManager
 
         private static void WriteLineError(string text)
         {
-            Console.ForegroundColor = ConsoleColor.Red;
+            Console.ForegroundColor = ConsoleColor.DarkRed;
             Console.WriteLine(text);
             Console.ResetColor();
         }
