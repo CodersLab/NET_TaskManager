@@ -26,7 +26,7 @@ namespace TaskManager
                 Console.WriteLine("5. Wyświetl zadania wg statusu");
                 Console.WriteLine("6. Szukaj zadania");
                 Console.WriteLine("7. Zmień status zadania");
-                Console.WriteLine("8. Przypisz zadanie");
+                //Console.WriteLine("8. Przypisz zadanie");
                 Console.WriteLine("9. Zakończ");
 
                 command = Console.ReadLine().Trim();
@@ -57,9 +57,9 @@ namespace TaskManager
                     case "7":
                         await UpdateTaskStatusAsync();
                         break;
-                    case "8":
-                        await AssignTaskAsync();
-                        break;
+                    // "8":
+                    //    await AssignTaskAsync();
+                    //    break;
                 }
                 Console.WriteLine("");
             } while (command != "9");
