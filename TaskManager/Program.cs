@@ -270,7 +270,7 @@ namespace TaskManager
     , CONCAT('Tabela Users ', CASE WHEN OBJECT_ID('Users', 'U') IS NOT NULL THEN 'istnieje' ELSE 'nieistnieje' END)
 )";
                 var result = await connection.QueryFirstAsync<string>(sql);
-                return result;
+                //return result;
             }
         }
     }
