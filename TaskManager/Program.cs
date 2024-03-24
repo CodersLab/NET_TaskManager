@@ -3,7 +3,7 @@ using System.Text;
 using Dapper;
 using TaskManager.BusinessLogic;
 
-namespace TaskManage
+namespace TaskManager123
 {
     public class Program
     {
