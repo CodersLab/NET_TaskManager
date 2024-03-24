@@ -258,20 +258,6 @@ namespace TaskManager
             Console.WriteLine(text);
             Console.ResetColor();
         }
-
-        private static async Task<string> TestDbAsync()
-        {
-            using (var connection = new SqlConnection(ConnectionString))
-            {
-                var sql = @"SELECT CONCAT(
-    'Tabela TaskItems '
-    , CASE WHEN OBJECT_ID('TaskItems', 'U') IS NOT NULL THEN 'istnieje' ELSE 'nieistnieje' END
-    , CHAR(13)+CHAR(10)
-    , CONCAT('Tabela Users ', CASE WHEN OBJECT_ID('Users', 'U') IS NOT NULL THEN 'istnieje' ELSE 'nieistnieje' END)
-)";
-                var result = await connection.QueryFirstAsync<string>(sql);
-                //return result;
-            }
-        }
+        //test
     }
 }
