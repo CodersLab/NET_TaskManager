@@ -21,8 +21,8 @@ namespace TaskManager
                 Console.WriteLine("0. Wyświetl użytkowników");
                 Console.WriteLine("1. Dodaj zadanie");
                 Console.WriteLine("2. Usuń zadanie");
-                Console.WriteLine("3. Pokaż szczegóły zadania");
-                Console.WriteLine("4. Wyświetl wszystkie zadania");
+                Console.WriteLine("3. Wyświetl wszystkie zadania");
+                Console.WriteLine("4. Pokaż szczegóły zadania");
                 Console.WriteLine("5. Wyświetl zadania wg statusu");
                 Console.WriteLine("6. Szukaj zadania");
                 Console.WriteLine("7. Zmień status zadania");
@@ -57,9 +57,9 @@ namespace TaskManager
                     case "7":
                         await UpdateTaskStatusAsync();
                         break;
-                    case "8":
-                        await AssignTaskAsync();
-                        break;
+                   // case "8":
+                      //  await AssignTaskAsync();
+                       // break;
                 }
                 Console.WriteLine("");
             } while (command != "9");
