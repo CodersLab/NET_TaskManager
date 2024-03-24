@@ -19,15 +19,15 @@ namespace TaskManager
             do
             {
                 Console.WriteLine("0. Print users");
-                Console.WriteLine("1. Dodaj zadanie");
-                Console.WriteLine("2. Usuń zadanie");
-                Console.WriteLine("3. Pokaż szczegóły zadania");
-                Console.WriteLine("4. Wyświetl wszystkie zadania");
-                Console.WriteLine("5. Wyświetl zadania wg statusu");
-                Console.WriteLine("6. Szukaj zadania");
-                Console.WriteLine("7. Zmień status zadania");
-                Console.WriteLine("8. Przypisz zadanie");
-                Console.WriteLine("9. Zakończ");
+                Console.WriteLine("1. Add Task");
+                Console.WriteLine("2. Delete task");
+                Console.WriteLine("3. Show task details");
+                Console.WriteLine("4. Show all tasks");
+                Console.WriteLine("5. View tasks by status");
+                Console.WriteLine("6. Search for task");
+                Console.WriteLine("7. Change task status");
+                Console.WriteLine("8. Assign the task");
+                Console.WriteLine("9. Finish");
 
                 command = Console.ReadLine().Trim();
 
