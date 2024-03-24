@@ -57,9 +57,9 @@ namespace TaskManager
                     case "7":
                         await UpdateTaskStatusAsync();
                         break;
-                    //case "8":
-                    //    await AssignTaskAsync();
-                    //    break;
+                    case "8":
+                        await AssignTaskAsync();
+                        break;
                 }
                 Console.WriteLine("");
             } while (command != "9");
