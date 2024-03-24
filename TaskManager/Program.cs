@@ -18,7 +18,7 @@ namespace TaskManager
             string command;
             do
             {
-                Console.WriteLine("0. Show users");
+                Console.WriteLine("0. Print users");
                 Console.WriteLine("1. Add Task");
                 Console.WriteLine("2. Delete task");
                 Console.WriteLine("3. Show task details");
