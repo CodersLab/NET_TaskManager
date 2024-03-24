@@ -27,7 +27,7 @@ namespace TaskManager
                 Console.WriteLine("6. Szukaj zadania");
                 Console.WriteLine("7. Zmień status zadania");
                 Console.WriteLine("8. Przypisz zadanie");
-                Console.WriteLine("9. Zakończ");
+                Console.WriteLine("9. End");
 
                 command = Console.ReadLine().Trim();
 
