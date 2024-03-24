@@ -20,7 +20,7 @@ namespace TaskManager
             {
                 Console.WriteLine("0. Show users");
                 Console.WriteLine("1. Add task");
-                Console.WriteLine("2. Delete task");
+                // Console.WriteLine("2. Delete task");
                 Console.WriteLine("3. Show task details");
                 Console.WriteLine("4. Show all tasks");
                 Console.WriteLine("5. View tasks by status");
