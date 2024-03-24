@@ -18,7 +18,7 @@ namespace TaskManager
             string command;
             do
             {
-                Console.WriteLine("0. Wyświetl użytkowników");
+                Console.WriteLine("0. Print users");
                 Console.WriteLine("1. Dodaj zadanie");
                 Console.WriteLine("2. Usuń zadanie");
                 Console.WriteLine("3. Pokaż szczegóły zadania");
